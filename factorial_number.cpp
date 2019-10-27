@@ -28,6 +28,6 @@ int main() {
         } while (loopCounter < integerAsNumber);
         std::cout << "Your total is " << total << std::endl;
     } catch (std::invalid_argument) {
-            std::cout << "Not a valid integer" << std::endl;
+            std::cout << "Invalid Input" << std::endl;
     }
 }
